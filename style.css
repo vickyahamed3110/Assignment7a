@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(117, 107, 107);
+    padding:20px;
+    border:1px solid black;
+    margin-bottom:15px;
+}
+.content-view{
+    border-radius:10px;
+    display:grid;
+    margin:17px;
+    grid-template-columns:300px 500px;
+    background-color: rgb(153,185,174);
+    gap:4rem;
+}
+.left-view{
+    margin:20px;
+    background-color: rgb(87,71,71);
+    width:300px;
+    height:700px;
+    border-radius:10px;
+}
+.right-view{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+}
+input{
+    background-color: rgb(87,71,71);
+    width:400px;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+}
+.card-containers{
+    display:flex;
+    gap:1rem;
+}
+.card{
+    background-color: rgb(87,71,71);
+    width:150px;
+    height:100px;
+    border-radius:10px;
+    gap:10rem;
+}
+.long-card{
+    background-color: rgb(87,71,71);
+    width:500px;
+    height:150px;
+    border-radius:10px;
+}
